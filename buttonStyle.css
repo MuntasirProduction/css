@@ -1,0 +1,88 @@
+.subscribe-button{
+    background-color: rgb(194, 13, 13);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 105px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 8px;
+    /* margin-top: 100px; */
+}
+
+.join-button{
+    background-color: white;
+    color:rgb(41, 118, 211);
+    border-color: rgb(41, 118, 211);
+    border-style: solid;
+    border-width: 1px;
+    height: 36px;
+    width: 62px;
+    border-radius: 2px;
+    margin:8px;
+}
+
+.join-button:hover{
+    background-color: rgb(41, 118, 211);
+    color:white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.tweet-button{
+    background-color: rgb(41, 118, 211);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 75px;
+    border-radius: 18px;
+    cursor: pointer;
+    margin: 8px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.submit-button{
+    background-color: rgb(48, 179, 92);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 100px;
+    border-radius: 16px;
+    cursor: pointer;
+    margin: 8px;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.leaf-button{
+    background-color: rgb(47, 228, 92);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 100px;
+    border-radius: 40px 1px 40px 1px;
+    cursor: pointer;
+    margin: 8px;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.help-button{
+    background-color: rgb(36, 209, 200);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 75px;
+    border-radius: 18px;
+    margin: 8px;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+.help-button:hover{
+    background-color: rgb(58, 173, 168);
+    cursor: help;
+    font-weight: bolder;
+}
