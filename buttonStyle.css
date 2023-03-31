@@ -7,6 +7,7 @@
     border-radius: 2px;
     cursor: pointer;
     margin: 8px;
+    margin-bottom: 35px;
     /* margin-top: 100px; */
 }
 
@@ -48,7 +49,7 @@
     border: none;
     height: 36px;
     width: 100px;
-    border-radius: 16px;
+    border-radius: 5px;
     cursor: pointer;
     margin: 8px;
     font-weight: bolder;
@@ -61,7 +62,7 @@
     border: none;
     height: 36px;
     width: 100px;
-    border-radius: 40px 1px 40px 1px;
+    border-radius: 30px 1px 30px 1px;
     cursor: pointer;
     margin: 8px;
     font-weight: bolder;
@@ -84,5 +85,107 @@
 .help-button:hover{
     background-color: rgb(58, 173, 168);
     cursor: help;
+    font-weight: bolder;
+}
+
+.request-button{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 105px;
+}
+
+.request-button:hover{
+    background-color: rgb(51, 51, 51);
+    color: white;
+    cursor: pointer;
+}
+
+.cart-button{
+    background-color: rgba(247, 211, 9, 0.89);
+    color: rgb(0, 0, 0);
+    border: none;
+    height: 36px;
+    width: 150px;
+    border-radius: 50px;
+    font-size: 15px;
+}
+
+.buy-button{
+    background-color: rgba(247, 144, 9, 0.89);
+    color: rgb(0, 0, 0);
+    border: none;
+    height: 36px;
+    width: 150px;
+    border-radius: 50px;
+    font-size: 15px;
+}
+
+.signup-button{
+    background-color: rgba(9, 179, 3, 0.644);
+    color: white;
+    border: none;
+    height: 40px;
+    width: 105px;
+    border-radius: 9px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.get-started-button{
+    background-color: rgba(89, 2, 116, 0.568);
+    color: white;
+    border: none;
+    height: 40px;
+    width: 105px;
+    border-radius: 9px;
+    font-weight: bold;
+}
+
+.download-button{
+    background-color: white;
+    color: rgba(21, 2, 27, 0.63);
+    border: solid;
+    border-width: 1px;
+    height: 40px;
+    width: 105px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.download-button:hover{
+    background-color: rgba(21, 2, 27, 0.63);
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.apply-button{
+    background-color: rgba(81, 92, 252, 0.89);
+    color: white;
+    border: none;
+    height: 40px;
+    width: 250px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.save-button{
+    background-color: white;
+    color: rgba(81, 92, 252, 0.89);
+    border: solid;
+    border-width: 1px;
+    height: 40px;
+    width: 90px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.save-button:hover{
+    background-color: rgba(81, 92, 252, 0.89);
+    color: white;
     font-weight: bolder;
 }
